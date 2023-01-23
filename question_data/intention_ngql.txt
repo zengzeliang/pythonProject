@@ -1,0 +1,11 @@
+0 未知意图
+1 开放时间
+2 询问地址 LOOKUP ON sightInfo WHERE sightInfo.sightName == "#豫园#" YIELD sightInfo.addrName;
+3 所在城市
+4 是否免费 LOOKUP ON sightInfo WHERE sightInfo.sightName == "#豫园#" YIELD sightInfo.free;
+5 门票价格 LOOKUP ON sightInfo WHERE sightInfo.sightName == "#豫园#" YIELD sightInfo.price;
+6 询问景区级别
+7 景区介绍 LOOKUP ON sightInfo WHERE sightInfo.sightName == "#豫园#" YIELD sightInfo.intro;
+8 景区图片 LOOKUP ON sightInfo WHERE sightInfo.sightName == "#豫园#" YIELD sightInfo.sightImgURL;
+9 位于城市有哪些A级景点
+10 城市有哪些景点
